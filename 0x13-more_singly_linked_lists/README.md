@@ -1,0 +1,3 @@
+### More Singly Linked
+
+More singly linked lists are an extension of the traditional linked list data structure. They provide additional functionality and flexibility compared to regular singly linked lists. With more singly linked lists, each node not only points to the next node in the list but also keeps track of a separate pointer that points to a previous node. This allows for efficient traversal in both directions, enabling operations such as reverse traversal and bidirectional iteration. Additionally, more singly linked lists offer improved insert and delete operations at both ends of the list, making them a versatile choice for various applications that require efficient data manipulation.
