@@ -53,7 +53,7 @@ Variable CFLAGS that defines the compiler flags -Wall -Werror -Wextra -pedantic.
 ## 6. make -f 100-Makefile
 
 [100-Makefile]: Makefile that creates an executable school based on [school.c] and [main.c.] Builds on [4-Makefile] with:
-** Does not define the variable RM.
-** Never uses the string $(CFLAGS).
-** Does not compile if the header m.h is missing.
+*** Does not define the variable RM.
+*** Never uses the string $(CFLAGS).
+*** Does not compile if the header m.h is missing.
 Works even if there are existing files of the same name as any of the Makefile rules in the current directory.
