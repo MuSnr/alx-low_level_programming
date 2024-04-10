@@ -8,6 +8,7 @@ In this project, I practiced writing Makefiles.
 
 [main.c](main.c): Main C function that runs the function defined in [school.c](school.c)
 
+[main.c]: Main C function that runs the function defined in [school.c](school.c)
 # Header File 📁
 [m.h](m.h): Header file defining the function prototype used in **school.c**
 # Tasks 📃
@@ -57,4 +58,7 @@ Variable **CFLAGS** that defines the compiler **flags -Wall -Werror -Wextra -ped
 * Never uses the string **$(CFLAGS)**.
 * Does not compile if the header **m.h** is missing.
 Works even if there are existing files of the same name as any of the Makefile rules in the current directory.
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3e01a12b4ecc3cda21df2fcfda5c80d68ddb8ca
